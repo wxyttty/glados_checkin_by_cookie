@@ -6,6 +6,7 @@
 
 import requests
 import json
+import os
 COOKIE = os.environ.get('COOKIE')
 url = "https://glados.rocks/api/user/checkin"
 payload = {
