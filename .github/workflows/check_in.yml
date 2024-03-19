@@ -9,7 +9,7 @@ on:
   pull_request:
     branches: [ "main" ]
   schedule:
-    - cron: '21 14 * * *'
+    - cron: '18 14 * * *'
   workflow_dispatch:
   
 jobs:
